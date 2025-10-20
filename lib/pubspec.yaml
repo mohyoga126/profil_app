@@ -1,0 +1,38 @@
+name: profil_app
+description: Aplikasi Profil Diri Sederhana Flutter
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+```
+
+4. Klik **Commit new file**
+
+### Step 4: Buat File .gitignore
+1. Klik **Add file** → **Create new file**
+2. Ketik nama: `.gitignore`
+3. Salin kode ini:
+```
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.iml
+*.lock
